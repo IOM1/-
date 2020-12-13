@@ -27,4 +27,22 @@ window.onload = function () {
     weekly_plan.style.opacity = 0;
     weekly_plan.style.zIndex = -2;
   }
+  var month = document.getElementById('month');
+  month.onclick = function() {
+    console.log("ok");
+    weekly_plan.style.opacity = 1;
+    weekly_plan.style.zIndex = 1;
+  }
+  var no_due = document.getElementById('no_due');
+  no_due.onclick = function () {
+    console.log("ok");
+    weekly_plan.style.opacity = 1;
+    weekly_plan.style.zIndex = 1;
+  }
+  var bucketList = document.getElementById('bucketList');
+  bucketList.onclick = function () {
+    console.log("ok");
+    weekly_plan.style.opacity = 1;
+    weekly_plan.style.zIndex = 1;
+  }
 }

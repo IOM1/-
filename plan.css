@@ -40,26 +40,26 @@ header{
 .weekly{
   background-color: lightblue;
   position: absolute;
-  top: 100px;
+  top: 90px;
   left: 20px;
 }
 .month{
   background-color: lightgreen;
   position: absolute;
-  top: 300px;
+  top: 270px;
   right: 20px;
   padding-right: 70px;
 }
 .no_due{
   background-color: lightblue;
   position: absolute;
-  top: 500px;
+  top: 470px;
   left: 20px;
 }
-.bucket_list{
+.bucketList{
   background-color: lightgreen;
   position: absolute;
-  top: 700px;
+  top: 650px;
   right: 20px;
 }
 #weekly_plan{
@@ -71,6 +71,7 @@ header{
   background-color: lightgrey;
   opacity: 0;
   z-index: -2;
+  border-radius: 1em;
 }
 #head{
   width: 80%;
@@ -102,6 +103,7 @@ header{
   text-align: center;
   opacity: 0;
   z-index: -2;
+  border-radius: 1em;
 }
 #input{
   width: 100px;
