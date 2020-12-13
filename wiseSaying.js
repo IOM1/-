@@ -36,6 +36,10 @@ window.onload = function () {
     if(i == 8){
       document.getElementById('saying').innerHTML = "과거는 지나갔고 현재는 추억이되어 어느 한곳에 잘 머물러 있을 것이다. 그러니 좀 더 앞을 보고 살아가 주길";
       document.getElementById('author').innerHTML = "-이지민-";
+    }
+    if( i == 9){
+      document.getElementById('saying').innerHTML = "백 권의 책에 쓰인 말보다 한 가지 성실한 마음이 더 크게 사람을 움직인다.";
+      document.getElementById('author').innerHTML = "-프랭클린-";
       i = 0;
     }
     i++;
