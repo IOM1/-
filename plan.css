@@ -1,11 +1,11 @@
-*{
+* {
   padding: 0;
-  margin: 0;;
+  margin: 0;
 }
-body{
-  font-family: 'Sunflower', sans-serif;;
+body {
+  font-family: "Sunflower", sans-serif;
 }
-header{
+header {
   background-color: #377ded;
   border: 1px solid rgb(180, 180, 180);
   border-bottom-left-radius: 1em;
@@ -20,7 +20,7 @@ header{
   font-size: 20px;
   font-style: bold;
 }
-.plan1{
+.plan1 {
   width: 50%;
   height: 100px;
   font-size: 40px;
@@ -28,7 +28,7 @@ header{
   padding-left: 70px;
   border-radius: 1em;
 }
-.plan2{
+.plan2 {
   width: 50%;
   height: 100px;
   font-size: 40px;
@@ -37,34 +37,34 @@ header{
   border-radius: 1em;
   text-align: end;
 }
-.weekly{
+.weekly {
   background-color: lightblue;
   position: absolute;
   top: 90px;
   left: 20px;
 }
-.month{
+.month {
   background-color: lightgreen;
   position: absolute;
   top: 270px;
   right: 20px;
   padding-right: 70px;
 }
-.no_due{
+.no_due {
   background-color: lightblue;
   position: absolute;
   top: 470px;
   left: 20px;
 }
-.bucketList{
+.bucketList {
   background-color: lightgreen;
   position: absolute;
   top: 650px;
   right: 20px;
 }
-#weekly_plan{
+#weekly_plan {
   position: absolute;
-  top:10%;
+  top: 10%;
   left: 10%;
   width: 80%;
   height: 80%;
@@ -73,12 +73,20 @@ header{
   z-index: -2;
   border-radius: 1em;
 }
-#head{
+#head {
   width: 80%;
   height: 50px;
   font-size: 30px;
 }
-#plus{
+#plus {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+}
+#del {
   position: absolute;
   top: 0;
   right: 0;
@@ -86,34 +94,50 @@ header{
   height: 50px;
   font-size: 50px;
 }
-#fin{
-  margin-top: 85%;
-  float: right; 
+.title {
+  width: 80%;
+  height: 20px;
+  background-color: lightblue;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.plan {
+  width: 80%;
+  height: 100px;
+  background-color: #377ded;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-bottom: 25px;
+}
+#fin {
+  bottom: 0;
+  float: right;
   width: 100px;
   height: 100px;
+  border-radius: 1em;
 }
-#plus_page{
+#plus_page {
   background-color: lightskyblue;
-  width: 50%;
+  width: 70%;
   height: 30%;
   padding-top: 20px;
   position: absolute;
-  top: 35%;
-  left: 25%;
+  top: 20%;
+  left: 15%;
   text-align: center;
   opacity: 0;
   z-index: -2;
   border-radius: 1em;
 }
-#input{
+#input {
   width: 100px;
-  height: 50px;  
+  height: 50px;
 }
-#input2{
+#input2 {
   width: 200px;
   height: 100px;
 }
-#submit{
+#submit {
   width: 100px;
   height: 50px;
 }

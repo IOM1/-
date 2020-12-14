@@ -75,9 +75,6 @@ section {
   height: 40px;
   border-radius: 0.2em;
 }
-#p01 {
-  margin-top: 43px;
-}
 .planList {
   background-color: slategrey;
   margin-top: 30px;
@@ -96,6 +93,132 @@ section {
   float: left;
   font-size: 20px;
 }
+#p01 {
+  margin-top: 43px;
+}
+#p20 {
+  margin-bottom: 100px;
+}
+#c01 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c02 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c03 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c04 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c05 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c06 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c07 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c08 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c09 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c10 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c11 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c12 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c13 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c14 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c15 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c16 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c17 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c18 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c19 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
+#c20 {
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  opacity: 0;
+}
 #plus_plan {
   width: 80%;
   height: 30%;
@@ -107,6 +230,26 @@ section {
   text-align: center;
   opacity: 1;
   z-index: -5;
+}
+#input {
+  font-size: 20px;
+}
+#ok {
+  position: fixed;
+  bottom: 60px;
+  right: 3%;
+  background-color: rgb(224, 48, 48);
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 10em;
+  opacity: 0;
+  z-index: -2;
+}
+#ok p {
+  padding-top: 10px;
 }
 label {
   font-weight: bold;

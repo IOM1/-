@@ -5,6 +5,8 @@ window.onload = function () {
   var plus_page = document.getElementById('plus_page')
   var submit = document.getElementById('submit');
   var fin = document.getElementById('fin');
+  var del = document.getElementById('del');
+
   weekly.onclick = function () {
     weekly_plan.style.opacity = 1;
     weekly_plan.style.zIndex = 1;
@@ -13,13 +15,35 @@ window.onload = function () {
     plus_page.style.opacity = 1;
     plus_page.style.zIndex = 2;
   }
+  del.onclick = function () {
+    
+  }
   submit.onclick = function () {
-    var input = document.getElementById('input').value;
-    document.getElementById('list0').value = input;
-    input = document.getElementById('input2').value;
     plus_page.style.opacity = 0;
     plus_page.style.zIndex = -2;
-    document.getElementById('list1').value = input;
+    var title = document.getElementById('input').value;
+    var weekPlan = document.getElementById('input2').value;
+    var a=1, b=1, c=1, d=1;
+    if (a == 1){
+      document.getElementById('ti01').innerText = title;
+      document.getElementById('w01').innerText = weekPlan;
+      a=0;
+    }
+    else if ( b == 1 ){
+      document.getElementById('ti02').innerText = title;
+      document.getElementById('w02').innerText = weekPlan;
+      b=0;
+    }
+    else if ( c == 1 ){
+      document.getElementById('ti03').innerText = title;
+      document.getElementById('w03').innerText = weekPlan;
+      c=0;
+    }
+    else if ( d == 1 ){
+      document.getElementById('ti04').innerText = title;
+      document.getElementById('w04').innerText = weekPlan;
+      d=0;
+    }
   }
   fin.onclick = function () {
     weekly_plan.style.opacity = 0;
