@@ -9,7 +9,7 @@ window.onload = function () {
   }
   submit.onclick = function () {
     popup.style.opacity = 0;
-    popup.style.zIndex = 0;
+    popup.style.zIndex = -1;
     var input = document.getElementById('input').value;
     if (a == 1){
       document.getElementById('t01').innerHTML = input;
