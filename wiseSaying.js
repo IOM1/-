@@ -23,7 +23,7 @@ window.onload = function () {
       text.style.backgroundImage = "url('./img/04.jpg')";
     }
     if(i == 5){
-      document.getElementById('saying').innerHTML = "너는 그대의 영혼속에 깃들어 있는 영웅을 절대 버리지 않기를";
+      document.getElementById('saying').innerHTML = "나는 그대의 영혼속에 깃들어 있는 영웅을 절대 버리지 않기를";
       document.getElementById('author').innerHTML = "-니체, '차라투스트라는 이렇게 말했다.' (중 -";
       text.style.backgroundImage = "url('./img/05.jpg')";
       document.getElementById('author').style.left = '20%';
@@ -41,7 +41,7 @@ window.onload = function () {
       text.style.color = 'black'
     }
     if(i == 8){
-      document.getElementById('saying').innerHTML = "과거는 지나갔고 현재는 추억이되어 어느 한곳에 잘 머물러 있을 것이다. 그러니 좀 더 앞을 보고 살아가 주길";
+      document.getElementById('saying').innerHTML = "과거는 지나갔고 현재는 추억이되어 어느 한곳에 잘 머물러 있을 것이다. 그러니 후회와 미련을 가지지 않고 앞으로 나아가 주길";
       document.getElementById('author').innerHTML = "-이지민-";
       text.style.backgroundImage = "url('./img/08.png')";
     }
