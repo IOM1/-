@@ -6,12 +6,10 @@ window.onload = function () {
   var submit = document.getElementById('submit');
   var fin = document.getElementById('fin');
   weekly.onclick = function () {
-    console.log("ok");
     weekly_plan.style.opacity = 1;
     weekly_plan.style.zIndex = 1;
   }
   plus.onclick = function () {
-    console.log("ok");
     plus_page.style.opacity = 1;
     plus_page.style.zIndex = 2;
   }
