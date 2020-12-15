@@ -63,90 +63,95 @@ window.onload = function () {
     popup.style.zIndex = 1;
   }
   submit.onclick = function () {
-    popup.style.opacity = 0;
-    popup.style.zIndex = -5;
-    var input = document.getElementById('input').value;
-    if (a == 1){
-      document.getElementById('t01').innerHTML = input;
-      a = 0;
+    if (!document.getElementById('input').value){
+      alert("내용을 입력해주세요");
     }
-    else if(b == 1) {
-      document.getElementById('t02').innerHTML = input;
-      b = 0;
+    else {
+      popup.style.opacity = 0;
+      popup.style.zIndex = -5;
+      var input = document.getElementById('input').value;
+      if (a == 1){
+        document.getElementById('t01').innerHTML = input;
+        a = 0;
+      }
+      else if(b == 1) {
+        document.getElementById('t02').innerHTML = input;
+        b = 0;
+      }
+      else if(c == 1) {
+        document.getElementById('t03').innerHTML = input;
+        c = 0;
+      }
+      else if(d == 1) {
+        document.getElementById('t04').innerHTML = input;
+        d = 0;
+      }
+      else if(e == 1) {
+        document.getElementById('t05').innerHTML = input;
+        e = 0;
+      }
+      else if(f == 1) {
+        document.getElementById('t06').innerHTML = input;
+        f = 0;
+      }
+      else if(g == 1) {
+        document.getElementById('t07').innerHTML = input;
+        g = 0;
+      }
+      else if(h == 1) {
+        document.getElementById('t08').innerHTML = input;
+        h = 0;
+      }
+      else if(i == 1) {
+        document.getElementById('t09').innerHTML = input;
+        i = 0;
+      }
+      else if(j == 1) {
+        document.getElementById('t10').innerHTML = input;
+        j = 0;
+      }
+      else if(k == 1) {
+        document.getElementById('t11').innerHTML = input;
+        k = 0;
+      }
+      else if(l == 1) {
+        document.getElementById('t12').innerHTML = input;
+        i = 0;
+      }
+      else if(m == 1) {
+        document.getElementById('t13').innerHTML = input;
+        m = 0;
+      }
+      else if(n == 1) {
+        document.getElementById('t14').innerHTML = input;
+        n = 0;
+      }
+      else if(o == 1) {
+        document.getElementById('t15').innerHTML = input;
+        o = 0;
+      }
+      else if(p == 1) {
+        document.getElementById('t16').innerHTML = input;
+        p =0;
+      }
+      else if(q == 1) {
+        document.getElementById('t17').innerHTML = input;
+        q = 0;
+      }
+      else if(r == 1) {
+        document.getElementById('t18').innerHTML = input;
+        r = 0;
+      }
+      else if(s == 1) {
+        document.getElementById('t19').innerHTML = input;
+        s = 0;
+      }
+      else if(t == 1) {
+        document.getElementById('t20').innerHTML = input;
+        t = 0;
+      }
+      document.getElementById('input').value = "";
     }
-    else if(c == 1) {
-      document.getElementById('t03').innerHTML = input;
-      c = 0;
-    }
-    else if(d == 1) {
-      document.getElementById('t04').innerHTML = input;
-      d = 0;
-    }
-    else if(e == 1) {
-      document.getElementById('t05').innerHTML = input;
-      e = 0;
-    }
-    else if(f == 1) {
-      document.getElementById('t06').innerHTML = input;
-      f = 0;
-    }
-    else if(g == 1) {
-      document.getElementById('t07').innerHTML = input;
-      g = 0;
-    }
-    else if(h == 1) {
-      document.getElementById('t08').innerHTML = input;
-      h = 0;
-    }
-    else if(i == 1) {
-      document.getElementById('t09').innerHTML = input;
-      i = 0;
-    }
-    else if(j == 1) {
-      document.getElementById('t10').innerHTML = input;
-      j = 0;
-    }
-    else if(k == 1) {
-      document.getElementById('t11').innerHTML = input;
-      k = 0;
-    }
-    else if(l == 1) {
-      document.getElementById('t12').innerHTML = input;
-      i = 0;
-    }
-    else if(m == 1) {
-      document.getElementById('t13').innerHTML = input;
-      m = 0;
-    }
-    else if(n == 1) {
-      document.getElementById('t14').innerHTML = input;
-      n = 0;
-    }
-    else if(o == 1) {
-      document.getElementById('t15').innerHTML = input;
-      o = 0;
-    }
-    else if(p == 1) {
-      document.getElementById('t16').innerHTML = input;
-      p =0;
-    }
-    else if(q == 1) {
-      document.getElementById('t17').innerHTML = input;
-      q = 0;
-    }
-    else if(r == 1) {
-      document.getElementById('t18').innerHTML = input;
-      r = 0;
-    }
-    else if(s == 1) {
-      document.getElementById('t19').innerHTML = input;
-      s = 0;
-    }
-    else if(t == 1) {
-      document.getElementById('t20').innerHTML = input;
-      t = 0;
-    }
-    document.getElementById('input').value = "";
   }
 
   var del = document.getElementById('del');
@@ -201,82 +206,102 @@ window.onload = function () {
     if (c01.checked == true){
       document.getElementById('t01').innerHTML ="";
       a = 1;
+      c01.checked = false
     }
     if(c02.checked == true) {
       document.getElementById('t02').innerHTML = "";
       b = 1;
+      c02.checked = false
     }
     if(c03.checked == true) {
       document.getElementById('t03').innerHTML = "";
       c = 1;
+      c03.checked = false
     }
     if(c04.checked == true) {
       document.getElementById('t04').innerHTML = "";
       d = 1;
+      c04.checked = false
     }
     if(c05.checked == true) {
       document.getElementById('t05').innerHTML = "";
       e = 1;
+      c05.checked = false
     }
     if(c06.checked == true) {
       document.getElementById('t06').innerHTML = "";
       f = 1;
+      c06.checked = false
     }
     if(c07.checked == true) {
       document.getElementById('t07').innerHTML = "";
       g = 1;
+      c07.checked = false
     }
     if(c08.checked == true) {
       document.getElementById('t08').innerHTML = "";
       h = 1;
+      c08.checked = false
     }
     if(c09.checked == true) {
       document.getElementById('t09').innerHTML = "";
       i = 1;
+      c09.checked = false
     }
     if(c10.checked == true) {
       document.getElementById('t10').innerHTML = "";
       j = 1;
+      c10.checked = false
     }
     if(c11.checked == true) {
       document.getElementById('t11').innerHTML = "";
       k = 1;
+      c11.checked = false
     }
     if(c12.checked == true) {
       document.getElementById('t12').innerHTML = "";
       i = 1;
+      c12.checked = false
     }
     if(c13.checked == true) {
       document.getElementById('t13').innerHTML = "";
       m = 1;
+      c13.checked = false
     }
     if(c14.checked == true) {
       document.getElementById('t14').innerHTML = "";
       n = 1;
+      c14.checked = false
     }
     if(c15.checked == true) {
       document.getElementById('t15').innerHTML = "";
       o = 1;
+      c15.checked = false
     }
     if(c16.checked == true) {
       document.getElementById('t16').innerHTML = "";
       p = 1;
+      c16.checked = false
     }
     if(c17.checked == true) {
       document.getElementById('t17').innerHTML = "";
       q = 1;
+      c17.checked = false
     }
     if(c18.checked == true) {
       document.getElementById('t18').innerHTML = "";
       r = 1;
+      c18.checked = false
     }
     if(c19.checked == true) {
       document.getElementById('t19').innerHTML = "";
       s = 1;
+      c19.checked = false
     }
     if(c20.checked == true) {
       document.getElementById('t20').innerHTML = "";
       t = 1;
+      c20.checked = false
     }
     c01.style.opacity = 0;
     c02.style.opacity = 0;
